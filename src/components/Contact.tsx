@@ -29,7 +29,7 @@ export default function Contact() {
                   Uttar Pradesh 211001, India
                 </p>
                 <a
-                  href="https://maps.app.goo.gl/tUXLSkmXZZRj6CSHA"
+                  href="https://www.google.com/maps/search/Bati+Chokha+Family+Restaurant+Prayagraj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-accent hover:text-rust font-poppins text-sm font-medium mt-2 transition-colors"
@@ -99,13 +99,13 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Map / Entrance Image */}
+          {/* Map + Entrance Image */}
           <div className="space-y-6">
-            {/* Google Map Embed */}
+            {/* Map Embed */}
             <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-white h-80 md:h-96">
               <iframe
                 title="Bati Chokha Family Restaurant Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.5!2d81.846!3d25.457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI3JzI1LjIiTiA4McKwNTAnNDUuNiJF!5e0!3m2!1sen!2sin!4v1600000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.5!2d81.846!3d25.457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI3JzI1LjIiTiA4McKwNTAnNDUuNiJF!5e0!3m2!1sen!2sin!4v1678901234567"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
