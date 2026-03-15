@@ -19,7 +19,7 @@ const highlights = [
   {
     icon: <IndianRupee className="w-7 h-7" />,
     title: 'Affordable Pricing',
-    desc: 'Enjoy a satisfying meal at prices that won\'t break the bank.',
+    desc: "Enjoy a satisfying meal at prices that won't break the bank.",
   },
 ];
 
@@ -29,7 +29,9 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="font-dancing text-accent text-xl md:text-2xl mb-2">Discover Our Story</p>
+          <p className="font-dancing text-accent text-xl md:text-2xl mb-2">
+            Discover Our Story
+          </p>
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-earth mb-4">
             About Us
           </h2>
@@ -38,7 +40,7 @@ export default function About() {
 
         {/* Content */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
-          {/* Actual Image */}
+          {/* Image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-primary/20">
               <img
