@@ -38,21 +38,17 @@ export default function About() {
 
         {/* Content */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
-          {/* Image Placeholder */}
+          {/* Actual Image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl shadow-primary/20">
-              {/* PLACEHOLDER: Replace with restaurant interior/ambiance image */}
-              <div className="w-full aspect-[4/3] bg-gradient-to-br from-warm-dark to-warm flex items-center justify-center border-4 border-dashed border-accent/30 rounded-2xl">
-                <div className="text-center p-8">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 mx-auto mb-4 text-accent/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-primary font-poppins font-medium text-sm">Restaurant Ambiance Photo</p>
-                  <p className="text-primary/50 font-poppins text-xs mt-1">Place your image in /public/images/about.jpg</p>
-                </div>
-              </div>
+              <img
+                src="/images/about.jpg"
+                alt="Restaurant Interior"
+                className="w-full h-auto object-cover rounded-2xl aspect-[4/3]"
+              />
             </div>
-            {/* Decorative element */}
+
+            {/* Decorative elements */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/10 rounded-2xl -z-10" />
             <div className="absolute -top-4 -left-4 w-16 h-16 bg-gold/10 rounded-2xl -z-10" />
           </div>
